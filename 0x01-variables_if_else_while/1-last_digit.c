@@ -3,13 +3,14 @@
 #include <stdio.h>
 
 /**
- *main- Checks whether the last digit of a number is positive or negative
- *Return: Always 0, 1 otherwise
+ * main - Checks whether the last digit of a number is positive or negatie
+ *
+ * Return: Always 0. Otherwise 1
  */
 
 int main(void)
 {
-	int n; last;
+	int n, last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -28,5 +29,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 	}
+
 	return (0);
 }
