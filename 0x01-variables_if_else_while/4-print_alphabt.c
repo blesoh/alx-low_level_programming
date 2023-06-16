@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main- Entry point
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -13,8 +13,9 @@ int main(void)
 	while (i <= 122)
 	{
 		if (i != 101 && i != 113)
-			putchar (i);
+			putchar(i);
+		i++;
 	}
-		putchar ('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
